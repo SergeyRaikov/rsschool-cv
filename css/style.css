@@ -88,9 +88,10 @@ body {
 
 
 .profile-title {
-    margin: 40px auto 0;
+    margin: 40px auto;
     width: 400px;
     font-size: 55px;
+
 }
 
 
@@ -129,7 +130,6 @@ body {
 .section {
     width: 50%;
     padding: 0 20px;
-    border: 2px solid #070101;
 }
 
 
@@ -146,6 +146,7 @@ body {
 
 .section-list {
     position: relative;
+    padding-bottom: 20px;
     text-align: left;
     line-height: 2rem;
 }
@@ -192,7 +193,7 @@ body {
 .section-text {
     padding: 15px;
     text-indent: 20px;
-    line-height: 35px;
+    line-height: 30px;
 }
 
 
@@ -268,6 +269,34 @@ body {
 
     }
 }
+
+
+/* Foter */
+
+.footer {
+    background: #e4dfdf;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+.github-link {
+    font-size: 60px;
+}
+
+
+.fa-github {
+    color: #070707;
+}
+
+
+/* Media */
 
 
 @media (max-width: 1974px) {
