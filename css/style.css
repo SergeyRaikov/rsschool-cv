@@ -54,11 +54,21 @@ body {
 .main-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    }
+
+
 /* Nav */
+
 
 .nav-list {
     display: flex;
@@ -119,8 +129,6 @@ body {
     font-style: oblique;
     color: rgba(249, 6, 6, 0.5);
     ;
-
-
 }
 
 
@@ -277,15 +285,6 @@ body {
     background: #e4dfdf;
 }
 
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 22px;
-}
-
-
 .github-link {
     font-size: 60px;
 }
@@ -293,6 +292,11 @@ body {
 
 .fa-github {
     color: #070707;
+}
+
+
+.footer-date{
+    margin: 0 40px 0 40px;
 }
 
 
